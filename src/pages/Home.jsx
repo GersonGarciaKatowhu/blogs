@@ -12,6 +12,7 @@ function Home() {
                 <p>
                     Hola esta es mi pagina espero te guste. Me llamo Emanuel contactame por mis redes sociales
                 </p>
+                <p>Hola soy juan</p>
             </div>
           </main>
     </div>
