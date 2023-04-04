@@ -10,7 +10,7 @@ function Home() {
             <h1 className="no-margin">Inicio</h1>
             <div className="padding-general">
                 <p>
-                    Hola esta es mi pagina espero te guste. Me llamo Emanuel contactame por mis redes sociales
+                   parrafo
                 </p>
             </div>
           </main>
