@@ -38,9 +38,6 @@ function App() {
           ))}
         </Routes>
       </BrowserRouter>
-      <footer className="centerAll">
-        <p>Copyright &copy; {new Date().getFullYear()}</p>
-      </footer>
     </div>
   );
 }
