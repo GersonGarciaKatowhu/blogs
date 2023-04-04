@@ -1,0 +1,66 @@
+nav {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+nav a {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+a {
+  text-decoration: none;
+  color: rgb(49, 136, 72);
+}
+.link-blog {
+    display: inline-block;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    cursor: pointer;
+    padding: 10px 20px;
+    border: 1px solid #018dc4;
+    -webkit-border-radius: 3px 3px 29px 4px;
+    border-radius: 3px 3px 29px 4px;
+    font: normal 20px/normal "Times New Roman", Times, serif;
+    color: rgba(255,255,255,0.9);
+    -o-text-overflow: clip;
+    text-overflow: clip;
+    background: rgba(2,216,62,0.66);
+    -webkit-box-shadow: 2px 2px 2px 0 rgba(0,0,0,0.2) ;
+    box-shadow: 2px 2px 2px 0 rgba(0,0,0,0.2) ;
+    text-shadow: 7px 7px 1px rgba(30,102,43,0.66) ;
+    -webkit-transition: all 300ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    -moz-transition: all 300ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    -o-transition: all 300ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    transition: all 300ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    -webkit-transform: rotateX(-4.2704220487deg) rotateY(-46.9825392007275deg)   ;
+    transform: rotateX(-4.2704220487deg) rotateY(-46.9825392007275deg)   ;
+}
+
+.center {
+  text-align: center;
+}
+
+.centerAll{
+  display: grid;
+  justify-items: center;
+  padding: 10px;
+}
+.padding-general{
+  padding: 5px 30px;
+}
+.no-margin{
+  margin: 0;
+}
+.sub-title{
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: 0;
+}
+.datos-publicacion{
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin: 0;
+}
