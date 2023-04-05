@@ -1,14 +1,14 @@
 import { Link } from "react-router-dom"
 import Pages from "../component/Pages"
 
-function Blogs() {
+function Proyects() {
   return (
     <div>
           <main className="centerAll" >
-            <Pages title='Blogs'>
+            <Pages title='Proyectos'>
             <div className="padding-general">
                 <Link
-                    to="/blogs/maderas"
+                    to="/proyects/maderas"
                     className="link-blog"
                 >
                     Maderas
@@ -20,4 +20,4 @@ function Blogs() {
   )
 }
 
-export default Blogs
+export default Proyects

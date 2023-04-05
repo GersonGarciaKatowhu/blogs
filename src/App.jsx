@@ -7,21 +7,19 @@ import {
 } from "react-router-dom";
 import Home from "./pages/Home";
 import About from "./pages/About";
-import Maderas from './pages/blogs/Maderas'
-import Blogs from "./pages/Blogs";
+import Maderas from './pages/proyects/Maderas'
+import Proyects from "./pages/Proyects";
 
 const routes = [
   { path: "/", element: <Home /> },
   { path: "/about", element: <About /> },
-  { path: "/blogs/maderas", element: <Maderas /> },
-  { path: "/blogs", element: <Blogs /> },
+  { path: "/proyects/maderas", element: <Maderas /> },
+  { path: "/proyects", element: <Proyects /> },
   // {path: '/tests', element: }
 ];
 
 
 function App() {
-  const {pathname} = window.location
-  console.log(pathname);
   return (
     <div className="App">
       <BrowserRouter>
@@ -29,7 +27,7 @@ function App() {
         <nav>
           <Link className='center nav-link' to="/">Inicio</Link>
           <Link className="center nav-link" to="about">Sobre mi</Link>
-          <Link className="center nav-link" to="blogs">Blogs</Link>
+          <Link className="center nav-link" to="proyects">Proyectos</Link>
             {/*<Link to='tests' className='center nav-link' >Tests</Link>*/}
         </nav>
         </header>
