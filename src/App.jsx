@@ -23,9 +23,9 @@ function App() {
       <BrowserRouter>
         <header>
         <nav>
-          <Link className='center' to="/">Inicio</Link>
-          <Link className="center" to="about">Sobre mi</Link>
-          <Link className="center" to="blogs">Blogs</Link>
+          <Link className='center nav-link' to="/">Inicio</Link>
+          <Link className="center nav-link" to="about">Sobre mi</Link>
+          <Link className="center nav-link" to="blogs">Blogs</Link>
         </nav>
         </header>
         <Routes>

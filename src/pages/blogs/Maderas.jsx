@@ -2,7 +2,7 @@ import { Helmet } from "react-helmet";
 
 function Maderas() {
   return (
-    <div>
+    <>
       <Helmet>
         <title>Tipos de maderas</title>
       </Helmet>
@@ -31,10 +31,10 @@ function Maderas() {
             el cedro. Las maderas duras incluyen el cerezo, el roble, el nogal,
             la caoba, entre otros.
           </p>
-          <p className="datos-publicacion center">4 de Abril del 2023</p>
         </div>
+          <p className="datos-publicacion center">4 de Abril del 2023</p>
       </main>
-    </div>
+    </>
   );
 }
 

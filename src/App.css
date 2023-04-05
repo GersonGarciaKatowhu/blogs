@@ -38,11 +38,9 @@ a {
     -webkit-transform: rotateX(-4.2704220487deg) rotateY(-46.9825392007275deg)   ;
     transform: rotateX(-4.2704220487deg) rotateY(-46.9825392007275deg)   ;
 }
-
 .center {
   text-align: center;
 }
-
 .centerAll{
   display: grid;
   justify-items: center;
@@ -59,8 +57,12 @@ a {
   font-weight: 600;
   margin: 0;
 }
-.datos-publicacion{
+.datos-publicacion {
   font-size: 1.2rem;
   font-weight: 400;
   margin: 0;
+}
+.nav-link:hover {
+  display: inline-block;
+  background-color: #7e7d58;
 }
