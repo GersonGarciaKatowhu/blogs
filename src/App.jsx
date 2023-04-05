@@ -20,19 +20,6 @@ function App() {
     <div className="App">
       <StateCompo>
         <BrowserRouter>
-          <header>
-            <nav>
-              <Link className="center nav-link" to="/">
-                Inicio
-              </Link>
-              <Link className="center nav-link" to="/about">
-                Sobre mi
-              </Link>
-              <Link className="center nav-link" to="/proyects">
-                Proyectos
-              </Link>
-            </nav>
-          </header>
           <Routes>
             {routes.map((route) => (
               <Route

@@ -1,9 +1,9 @@
 import { Helmet } from "react-helmet"
 import Header from "./Header"
-
 function Pages({children, title, dataPublication }) {
   return (
     <>
+    <Header />
     <main className="centerAll">
         <Helmet>
             <title>{title}</title>
