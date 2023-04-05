@@ -2,6 +2,7 @@ import { Helmet } from "react-helmet"
 function Pages({children, title, dataPublication }) {
   return (
     <div>
+      
         <Helmet>
             <title>{title}</title>
         </Helmet>

@@ -18,7 +18,10 @@ const routes = [
   // {path: '/tests', element: }
 ];
 
+
 function App() {
+  const {pathname} = window.location
+  console.log(pathname);
   return (
     <div className="App">
       <BrowserRouter>

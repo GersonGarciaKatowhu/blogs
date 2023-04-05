@@ -1,19 +1,29 @@
-import Pages from "../component/Pages"
+import Pages from "../component/Pages";
+import gato from "../assets/gato.jpg";
 
 function About() {
   return (
     <div>
       <main className="centerAll">
-        <Pages title='Sobre mi'>
-        <div className="padding-general">
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, animi. Id quisquam corrupti deserunt, nihil laboriosam veritatis placeat aliquid, illo adipisci vel doloribus quaerat, sequi officiis quis ut unde dolorum? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium optio incidunt doloremque! Rerum eum iusto, ipsa, dolorum architecto recusandae similique quos laudantium reprehenderit ea saepe magnam? Quisquam officia eum iusto.
-          </p>
-        </div>
+        <Pages title="Sobre mi">
+          <div className="padding-general">
+            <p>
+              Esta es una página de prueba, donde hay contenido variado. <br />
+              Los gatos voladores son la ley.
+            </p>
+            <div className="img-container">
+              <img
+                className="img-cat img"
+                loading="lazy"
+                src={gato}
+                alt="Gato"
+              />
+            </div>
+          </div>
         </Pages>
       </main>
     </div>
-  )
+  );
 }
 
-export default About
+export default About;
