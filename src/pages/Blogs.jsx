@@ -2,8 +2,11 @@ import { Link } from "react-router-dom"
 import Pages from "../component/Pages"
 
 function Blogs() {
-  const contents = (
-    <div className="padding-general">
+  return (
+    <div>
+          <main className="centerAll" >
+            <Pages title='Blogs'>
+            <div className="padding-general">
                 <Link
                     to="/blogs/maderas"
                     className="link-blog"
@@ -11,11 +14,7 @@ function Blogs() {
                     Maderas
                 </Link>
             </div>
-  )
-  return (
-    <div>
-          <main className="centerAll" >
-            <Pages contents={contents} title='Blogs'/>
+            </Pages>
           </main>
     </div>
   )
