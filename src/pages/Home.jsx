@@ -1,21 +1,17 @@
-import { Helmet } from "react-helmet"
-
+import Pages from "../component/Pages";
 function Home() {
-  return (
-    <div>
-      <Helmet>
-          <title>Inicio</title>
-      </Helmet>
-          <main className="centerAll" >
-            <h1 className="no-margin">Inicio</h1>
-            <div className="padding-general">
-                <p>
-                   parrafo
-                </p>
-            </div>
-          </main>
+  const contents = (
+    <div className="padding-general">
+      <p>parrafo</p>
     </div>
-  )
+  );
+  return (
+    <>
+      <main className="centerAll">
+        <Pages contents={contents} title="Inicio" />
+      </main>
+    </>
+  );
 }
 
-export default Home
+export default Home;

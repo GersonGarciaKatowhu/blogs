@@ -15,6 +15,7 @@ const routes = [
   { path: "/about", element: <About /> },
   { path: "/blogs/maderas", element: <Maderas /> },
   { path: "/blogs", element: <Blogs /> },
+  // {path: '/tests', element: }
 ];
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
           <Link className='center nav-link' to="/">Inicio</Link>
           <Link className="center nav-link" to="about">Sobre mi</Link>
           <Link className="center nav-link" to="blogs">Blogs</Link>
+            {/*<Link to='tests' className='center nav-link' >Tests</Link>*/}
         </nav>
         </header>
         <Routes>

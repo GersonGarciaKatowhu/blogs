@@ -1,15 +1,9 @@
-import { Helmet } from "react-helmet"
 import { Link } from "react-router-dom"
+import Pages from "../component/Pages"
 
 function Blogs() {
-  return (
-    <div>
-      <Helmet>
-          <title>Blogs</title>
-      </Helmet>
-          <main className="centerAll" >
-            <h1 className="no-margin">Blogs</h1>
-            <div className="padding-general">
+  const contents = (
+    <div className="padding-general">
                 <Link
                     to="/blogs/maderas"
                     className="link-blog"
@@ -17,6 +11,11 @@ function Blogs() {
                     Maderas
                 </Link>
             </div>
+  )
+  return (
+    <div>
+          <main className="centerAll" >
+            <Pages contents={contents} title='Blogs'/>
           </main>
     </div>
   )
