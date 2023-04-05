@@ -4,7 +4,6 @@ import gato from "../assets/gato.jpg";
 function About() {
   return (
     <div>
-      <main className="centerAll">
         <Pages title="Sobre mi">
           <div className="padding-general">
             <p>
@@ -21,7 +20,6 @@ function About() {
             </div>
           </div>
         </Pages>
-      </main>
     </div>
   );
 }

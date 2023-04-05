@@ -3,7 +3,6 @@ import Pages from "../../component/Pages";
 function Maderas() {
   return (
     <>
-      <main className="centerAll">
         <Pages dataPublication="4 de Abril del 2023" title="Tipos de maderas">
           <div className="padding-general">
             <h2 className="sub-title center">Tipos y características</h2>
@@ -30,7 +29,6 @@ function Maderas() {
             </p>
           </div>
         </Pages>
-      </main>
     </>
   );
 }

@@ -1,10 +1,8 @@
 import { Link } from "react-router-dom"
 import Pages from "../component/Pages"
-
 function Proyects() {
   return (
     <div>
-          <main className="centerAll" >
             <Pages title='Proyectos'>
             <div className="padding-general">
                 <Link
@@ -13,9 +11,14 @@ function Proyects() {
                 >
                     Maderas
                 </Link>
+                <Link
+                    to="/proyects/usecontext"
+                    className="link-blog"
+                >
+                    UseContext
+                </Link>
             </div>
             </Pages>
-          </main>
     </div>
   )
 }
