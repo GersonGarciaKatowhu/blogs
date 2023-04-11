@@ -1,4 +1,7 @@
 import Pages from "../component/Pages";
+import Header from "../component/Header";
+import { Link } from "react-router-dom";
+
 function Home() {
   return (
     <>

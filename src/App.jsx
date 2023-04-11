@@ -6,6 +6,8 @@ import Maderas from "./pages/proyects/Maderas";
 import Proyects from "./pages/Proyects";
 import UseContext from "./pages/proyects/pruebas/UseContext";
 import StateCompo from "./hooks/useContext/StateCompo";
+import './scss/styles.scss';
+import * as bootstrap from 'bootstrap';
 
 const routes = [
   { path: "/", element: <Home /> },
